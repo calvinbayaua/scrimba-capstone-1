@@ -1,12 +1,35 @@
-# React + Vite
+# 🎲 Tenzies Game  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tenzies is a fun dice game built with React! The goal is to roll and hold the same **10 dice values** as quickly as possible. Test your luck and strategy in this engaging game!  
 
-Currently, two official plugins are available:
+## 📖 Learning Journey  
+This project was built while following [Scrimba's Learn React Course](https://scrimba.com/learn-react-c0e).  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Features  
+- Displays **10 dice** with random values.  
+- Allows users to **hold dice** to keep their value.  
+- Click the **Roll Dice** button to roll the remaining dice.  
+- **Win the game** when all 10 dice hold the same value!  
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack  
+- **Frontend:** React, HTML, CSS, JavaScript  
+- **State Management:** React Hooks (`useState`, `useEffect`, `useRef`)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 How It Works  
+1. Click **Roll Dice** to generate random values.  
+2. Click on individual **dice** to hold them in place.  
+3. Keep rolling until all **10 dice have the same value**.
+
+## 📦 Installation & Setup  
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/calvinbayaua/Tenzies-Game.git  
+   cd Tenzies-Game
+2. **Install dependencies:**  
+   ```sh
+   npm install
+   ```
+3. **Start the development server:**  
+   ```sh
+   npm run dev
+   ```
